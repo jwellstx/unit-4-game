@@ -1,3 +1,19 @@
 body {
+    background-image: url("../images/starwarsbg.png");
+    color: white;
+}
+
+.icon {
+    text-align: center;
+    margin: 15px;
     background-color: green;
+    border: 5px solid black;
+    color: white;
+}
+
+.title {
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    font-size: 50px;
 }
