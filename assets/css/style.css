@@ -1,6 +1,12 @@
 body {
     background-image: url("../images/starwarsbg.png");
-    color: white;
+    color: black;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 .icon {
@@ -9,6 +15,10 @@ body {
     background-color: green;
     border: 5px solid black;
     color: white;
+}
+
+.icon:hover {
+    background-color: red;
 }
 
 .title {
